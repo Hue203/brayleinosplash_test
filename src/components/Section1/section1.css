@@ -1,0 +1,29 @@
+#section1 .linear {
+  background: linear-gradient(176deg, #00a4e8 50%, #37b372 40%);
+  height: 25vh;
+}
+
+.container-section1 {
+  background-color: #00a4e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 75vh;
+  width: 100%;
+}
+
+.container-section1 p {
+  display: block;
+  width: 50%;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container-section1 {
+    padding-left: 20px;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,45 @@
+#section2 .linear {
+  background: linear-gradient(-176deg, #37b372 50%, #b3377a 40%);
+  height: 25vh;
+}
+.container-section2 {
+  background-color: #37b372;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 75vh;
+  width: 100%;
+}
+
+.container-section2 p {
+  display: block;
+  width: 50%;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.container-section2 p:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  transition: 0.25s;
+}
+
+@media only screen and (max-width: 900px) {
+  .container-section2 {
+    font-size: 12px;
+    height: 120%;
+  }
+  .section2-img-holder a img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+  }
+}
