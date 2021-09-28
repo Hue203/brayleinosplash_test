@@ -5,20 +5,20 @@ const Section3 = () => {
   return (
     <section id="section3">
       <div id="section3" className="container-section3">
-        <h1 data-aos="fade-up" data-aos-anchor-placement="top-center">
+        <h1 data-aos="fade-up" data-aos-duration="1000">
           THIS IS HEADING OF SECTION
         </h1>
 
-        <p data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
+        <p data-aos="fade-up" data-aos-duration="2000">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
           aliquid laboriosam quidem officiis ut debitis dolores, dignissimos
           magni maiores ullam, excepturi omnis, quam maxime voluptatibus
           deleniti dicta esse atque porro.
         </p>
         <div
-          data-aos="fade-right"
-          data-aos-offset="400"
-          data-aos-duration="2000"
+          data-aos="fade-up"
+          data-aos-offset="300"
+          data-aos-duration="3000"
           className="section3-img-holder"
         >
           <a href="https://placeholder.com">

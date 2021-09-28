@@ -17,7 +17,7 @@ const Section2 = () => {
         </p>
         <div
           data-aos="fade-left"
-          data-aos-offset="500"
+          data-aos-offset="300"
           data-aos-duration="2000"
           className="section2-img-holder"
         >
